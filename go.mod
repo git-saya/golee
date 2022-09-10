@@ -1,3 +1,3 @@
-module github.com/git-saya/go-lee/v2
+module github.com/git-saya/golee
 
 go 1.18
