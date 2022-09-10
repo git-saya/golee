@@ -6,7 +6,7 @@ import (
 )
 
 
-func CensorEmail(email) {
+func CensorEmail(email string) {
 	var str_split = strings.Split(email, "@")
 	censor_email := "xxxxxxx@" 
 
