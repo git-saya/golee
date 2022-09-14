@@ -1,10 +1,8 @@
-package main
+package golee
 
 import (
 	"strings"
-	"fmt"
 )
-
 
 func CensorEmail(email string) string {
 	var str_split = strings.Split(email, "@")
@@ -17,8 +15,4 @@ func CensorEmail(email string) string {
 
 	result := censor_email + "@" + str_split[1]
 	return result
-}
-
-func main() {
-	fmt.Println(CensorEmail("bale@gmail.com"))
 }
